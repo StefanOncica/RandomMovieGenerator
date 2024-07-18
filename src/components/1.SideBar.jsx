@@ -3,6 +3,7 @@ import { Form } from "react-bootstrap";
 
 export default function Sidebar( {choices, setChoices}) {
     const currentYear = new Date().getFullYear();
+    console.log(currentYear);
 
     function handleYear(event) {
         console.log(event.target.value);
